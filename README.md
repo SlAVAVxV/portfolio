@@ -45,5 +45,5 @@
 **Инструменты:** Docker, Git, PostgreSQL, SQLite, JWT, OpenAPI
 
 📬 **Контакты:**  
-[![Telegram](https://img.shields.io/badge/Telegram-@SIAVAVXV-blue?style=for-the-badge&logo=telegram)](https://t.me/SIAVAVXV)  
-📧 Email: твоя_почта@mail.com
+[![Telegram](https://img.shields.io/badge/Telegram-@AIGenesiss-blue?style=for-the-badge&logo=telegram)](https://t.me/SIAVAVXV)  
+📧 Email: svyacheslaw21@gmail.com
