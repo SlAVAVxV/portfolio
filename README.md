@@ -1,23 +1,49 @@
-### 👋 Привет! Меня зовут Вячеслав (SIAVAVXV)
+# 🎓 Моё портфолио студенческих и исследовательских проектов
 
-**💻 Студент Прикладной информатики | AI & GameDev Developer**
+**Специальность:** Прикладная информатика (Искусственный интеллект и большие данные)  
+**Студент:** Вячеслав Саранчин (SIAVAVXV)
 
-🚀 **Сейчас работаю над:** Дипломом по генеративному ИИ (преобразование видео в игры).  
-🌱 **Углубленно изучаю:** Computer Vision (SAM 2), LLMs и MLOps.  
-📫 **Связаться со мной:** [Telegram](https://t.me/SIAVAVXV) | Email: svyacheslaw@gmail.com  
-
----
-
-**Мой технологический стек:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+Добро пожаловать в моё портфолио! Здесь я собрал лучшие проекты, которые разрабатывал во время учёбы, включая курсовые, лабораторные и дипломную работу.
 
 ---
 
-**📈 Моя активность:**
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SIAVAVXV&layout=compact&theme=dark" />
-  <img src="https://github-readme-stats.vercel.app/api?username=SIAVAVXV&show_icons=true&theme=dark" />
-</p>
+## 📁 Содержание репозитория
+
+### 1. 🗄️ Базы данных
+*   **Папка:** `database/`
+*   **Проект:** Схема БД для туристического агентства.
+*   **Суть:** Полный SQL-скрипт для создания таблиц Клиенты, Туры, Заказы и Услуг с внешними ключами (Normalized SQL).
+
+### 2. 🤖 Telegram-боты
+*   **Папка:** `tg-bot/`
+*   **Проект:** Информационный бот Университета "Синергия".
+*   **Суть:** Бот на Python с административной панелью, статистикой пользователей, базой данных SQLite и полной контейнеризацией (Docker). Содержит обработчики для ответов на вопросы абитуриентов.
+
+### 3. 🧮 Алгоритмы и структуры данных
+*   **Папка:** `algorithms/`
+*   **Проект:** Сумма отрицательных чисел между минимумом и максимумом.
+*   **Суть:** Эффективный алгоритм на Python, проходящий массив и находящий сумму отрицательных элементов между глобальными минимумом и максимумом.
+
+### 4. 🤖 Искусственный интеллект и ML
+*   **Папка:** `ml/`
+*   **Проекты:**
+    *   *Predictive Maintenance* (LSTM Autoencoder) — поиск аномалий в телеметрии.
+    *   *Doc Verification API* — FastAPI + OCR + NLP для проверки проектной документации.
+    *   *Equipment Recommender* (CatBoost) — рекомендательная ML-система подбора оборудования.
+
+### 5. 🌐 Веб-разработка
+*   **Папка:** `web-mpa/`
+*   **Проект:** Базовое многостраничное веб-приложение.
+*   **Суть:** Демонстрация структуры MPA на HTML, CSS и JS с навигацией.
+
+---
+
+## 🛠️ Технологический стек
+**Языки:** Python, SQL, HTML, CSS, JavaScript  
+**Фреймворки:** FastAPI, Telegram Bot API  
+**ML/AI:** PyTorch, CatBoost, Hugging Face Transformers, OpenCV  
+**Инструменты:** Docker, Git, PostgreSQL, SQLite, JWT, OpenAPI
+
+📬 **Контакты:**  
+[![Telegram](https://img.shields.io/badge/Telegram-@SIAVAVXV-blue?style=for-the-badge&logo=telegram)](https://t.me/SIAVAVXV)  
+📧 Email: твоя_почта@mail.com
