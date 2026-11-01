@@ -11,10 +11,14 @@ def run_optimized(batch_size: int = 1, iterations: int = 100) -> tuple:
     model = load_model(device, optimize=True)
     x = get_dummy_input(batch_size, device, optimize=True)
 
-    try:
-        model = torch.compile(model, mode="reduce-overhead")
-    except Exception as e:
-        print(f"[!] torch.compile недоступен: {e}")
+    # Включаем компиляцию ТОЛЬКО для видеокарт (CUDA).
+    if device.type == 'cuda':
+        try:
+            model = torch.compile(model, mode="reduce-overhead")
+        except Exception as e:
+            print(f"[!] torch.compile недоступен: {e}")
+    else:
+        print("[i] Компиляция (torch.compile) пропущена, так как нет видеокарты NVIDIA.")
 
     with torch.no_grad():
         for _ in range(20):
@@ -24,7 +28,7 @@ def run_optimized(batch_size: int = 1, iterations: int = 100) -> tuple:
 
     times = []
     with torch.no_grad():
-        for _ in tqdm(range(iterations), desc="Optimized (FP16 + Compile)"):
+        for _ in tqdm(range(iterations), desc="Optimized (FP16)"):
             start = time.perf_counter()
             _ = model(x)
             if device.type == 'cuda':
